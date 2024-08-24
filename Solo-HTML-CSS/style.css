@@ -1,0 +1,93 @@
+body {
+  background-color: rgb(242, 242, 242);
+  font-family: "Source Sans 3", sans-serif;
+}
+.contener {
+  width: 375px;
+  margin: 50px auto;
+}
+
+/* ******************** */
+/* NAV-BAR */
+/* ******************** */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #c6c6c6;
+  background-color: #fff;
+}
+
+.insgram-nav {
+  width: 12.7rem;
+  height: 4rem;
+  margin: 1.6rem 0 1.8rem 1.5rem;
+}
+
+.avtar-nav {
+  width: 3.4rem;
+  height: 3.4rem;
+  margin-right: 1.6rem;
+  border-radius: 50%;
+}
+
+/* ******************** */
+/* account img */
+/* ******************** */
+
+.first-box {
+  margin-bottom: 2.5rem;
+  background-color: #fff;
+}
+
+.flex-account {
+  display: flex;
+  align-items: center;
+}
+
+.user-name p:first-child {
+  color: #000;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.user-name p:last-child {
+  color: #000;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.account-img {
+  width: 3.4rem;
+  height: 3.4rem;
+  border-radius: 50%;
+  margin: 1rem 0.7rem 1.1rem 1rem;
+}
+
+.flex-icone {
+  display: flex;
+  gap: 1rem;
+  margin: 1.5rem 0 1rem 1rem;
+}
+
+.flex-icone img {
+  width: 2.4rem;
+}
+
+.text-info p:first-child {
+  margin-left: 1.3rem;
+  color: #000;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.text-info p:last-child {
+  margin-left: 1.3rem;
+  padding-bottom: 1.6rem;
+}
+
+span {
+  color: #000;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
